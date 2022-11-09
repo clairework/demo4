@@ -1,0 +1,74 @@
+.text-hover {
+    display: none;
+    position: absolute;
+  }
+  
+  .img-hover {
+    position: relative;
+    background-color: #000;
+    &:hover {
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,0.6));
+        opacity: 0.9;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+      }
+      .text-hover {
+        display: block;
+        z-index: 1;
+      }
+    }
+  }
+
+  .dialog{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 18px 5px 18px;
+    border-radius: 6px;
+    position: relative;
+    &::before{
+      content: "";
+      border-color: black transparent transparent transparent;
+      border-style: solid solid solid solid;
+      border-width: 9px;
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      bottom: -18px;
+      left:65px;
+    }
+    &:after {
+      content: "";
+      border-color: white transparent transparent transparent;
+      border-style: solid solid solid solid;
+      border-width: 8px;
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      bottom: -16px;
+      left:66px;
+  }
+  }
+
+  
+.draw-btn {
+  background-image: url("../images/btn2.png");
+  width: 140px;
+  height: 153px;
+  &:hover {
+    background-image: url("../images/btn.png");
+  }
+}
+
+
+
+  

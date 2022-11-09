@@ -1,0 +1,112 @@
+.dog01 {
+    background-image: url("../images/dog01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 424px;
+    border-radius: 16px 16px 0 0;
+  }
+  @include media-breakpoint-up(md) {
+    .dog01 {
+      background-image: url("../images/dog01@2x.png");
+    }
+  }
+
+  .dog02 {
+    background-image: url("../images/04.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 424px;
+    border-radius: 16px 16px 0 0;
+  }
+  @include media-breakpoint-up(md) {
+    .dog02 {
+      background-image: url("../images/04@2x.png");
+    }
+  }
+
+  .dog03 {
+    background-image: url("../images/08.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 424px;
+    border-radius: 16px 16px 0 0;
+  }
+  @include media-breakpoint-up(md) {
+    .dog03 {
+      background-image: url("../images/08@2x.png");
+    }
+  }
+
+  .dog04 {
+    background-image: url("../images/06.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 424px;
+    border-radius: 16px 16px 0 0;
+  }
+  @include media-breakpoint-up(md) {
+    .dog04 {
+      background-image: url("../images/06@2x.png");
+    }
+  }
+
+  .dog05 {
+    background-image: url("../images/07.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 424px;
+    border-radius: 16px 16px 0 0;
+  }
+  @include media-breakpoint-up(md) {
+    .dog05 {
+      background-image: url("../images/07@2x.png");
+    }
+  }
+
+  .dog06 {
+    background-image: url("../images/05.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 424px;
+    border-radius: 16px 16px 0 0;
+  }
+  @include media-breakpoint-up(md) {
+    .dog06 {
+      background-image: url("../images/05@2x.png");
+    }
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    transition: 0.25s;
+    .dog01 {
+      background-image: url("../images/dog01-hover-1.png");
+      transition: 0.5s;
+    }
+    .dog02 {
+        background-image: url("../images/dog02-hover.png");
+        transition: 0.5s;
+    }
+    .dog03 {
+        background-image: url("../images/dog03-hover.png");
+        transition: 0.5s;
+    }
+    .dog04 {
+        background-image: url("../images/dog01-hover-1.png");
+        transition: 0.5s;
+    }
+    .dog05 {
+        background-image: url("../images/dog02-hover.png");
+        transition: 0.5s;
+    }
+    .dog06 {
+        background-image: url("../images/dog03-hover.png");
+        transition: 0.5s;
+    }
+  }
