@@ -1,5 +1,5 @@
 .home-banner {
-  background-image: url(../../images/home_mobile.png);
+  background-image: url(../images/home_mobile.png);
   background-size: cover;
   background-position: center center;
   height: 634px;
@@ -9,7 +9,7 @@
 @include media-breakpoint-up(md) {
   .home-banner {
       height: 810px;
-      background-image: url(../../images/home.png);
+      background-image: url(../images/home.png);
   }
 }
 
