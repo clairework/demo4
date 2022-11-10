@@ -1,3 +1,25 @@
+.home-banner {
+  background-image: url(../../images/home_mobile.png);
+  background-size: cover;
+  background-position: center center;
+  height: 634px;
+}
+
+//桌面版
+@include media-breakpoint-up(md) {
+  .home-banner {
+      height: 810px;
+      background-image: url(../../images/home.png);
+  }
+}
+
+.border-4 {
+  border-width: 4px !important;
+}   
+.border-5 {
+  border-width: 5px !important;
+}   
+
 .text-hover {
     display: none;
     position: absolute;
